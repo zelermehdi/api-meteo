@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>API Météo</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 my-3">
+                <form>
+                    <div class="" form-group">
+                        <input type="text" class="form-control" id="inputcity" />
+                    </div>
+
+                    <button type="submit" class="btn btn-info btn-block">
+                        rechercher
+                    </button>
+                </form>
+            </div>
+            <div class="col-12 col-sm-6 d-flex justify-content-center my-3">
+                <div class="box-container">
+                    <div id="city" class="box"></div>
+                    <div id="temp" class="box"></div>
+                    <div id="humidity" class="box"></div>
+                    <div id="wind" class="box"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/app.js"></script>
+</body>
+
+</html>
